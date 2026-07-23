@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "When Thermal-Margin Control Helps and When It Hurts: Convex Allocation for Multi-Tenant Edge Inference on Raspberry Pi 5"
+authors:
+  - family-names: "Jacob"
+    given-names: "Manu Nicholas"
+    orcid: "https://orcid.org/0009-0007-6589-6572"
+type: software
+repository-code: "https://github.com/manunicholasjacob/edge-thermal-margin-control"
+url: "http://manunicholasjacob.com/"
+version: "1.0.0"
+date-released: "2026-07-23"
