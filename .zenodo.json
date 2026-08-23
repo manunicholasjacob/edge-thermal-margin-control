@@ -1,0 +1,28 @@
+{
+  "title": "When Thermal-Margin Control Helps and When It Hurts: Convex Allocation for Multi-Tenant Edge Inference on Raspberry Pi 5",
+  "upload_type": "software",
+  "license": "mit",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Jacob, Manu Nicholas",
+      "orcid": "0009-0007-6589-6572"
+    }
+  ],
+  "keywords": [
+    "edge inference",
+    "thermal control",
+    "convex allocation",
+    "multi-tenant",
+    "quality of service",
+    "Raspberry Pi 5"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/manunicholasjacob/edge-thermal-margin-control",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ]
+}

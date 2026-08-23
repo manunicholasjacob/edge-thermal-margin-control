@@ -1,5 +1,7 @@
 # Edge Thermal-Margin Control: When It Helps and When It Hurts
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21844861.svg)](https://doi.org/10.5281/zenodo.21844861)
+
 Reproducible artifact for **"When Thermal-Margin Control Helps and When It Hurts: An
 Operating-Regime Study of Convex Allocation for Multi-Tenant Edge Inference"**
 (submitted to IEEE Embedded Systems Letters).
@@ -45,3 +47,10 @@ python scripts/paper1_regime_map.py    # the operating-regime table
 
 ## Citation
 Manu Nicholas Jacob, IEEE Embedded Systems Letters, 2026. MIT License.
+
+## Archived version
+
+This artifact is archived on Zenodo. The concept DOI
+[10.5281/zenodo.21844861](https://doi.org/10.5281/zenodo.21844861)
+always resolves to the latest release, and `CITATION.cff` carries the full metadata,
+which is what GitHub's "Cite this repository" button renders.
