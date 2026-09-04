@@ -89,3 +89,7 @@ main campaign at warmer daytime ambient (idle floor 48.5 C vs the calibrated
 first ticks of 52.4-52.9 C, the same first-tick temperature at which an
 overnight campaign run had stayed slack. Board history and ambient jointly set
 the entry state; no start-time signal cleanly predicts it.
+
+Note: in preheat_results.json, t_pre/t_start record board temperature when the
+runner returned from preconditioning, before tenant warm-up; first-control-tick
+temperatures are the first T_c row of each run controller.csv.
