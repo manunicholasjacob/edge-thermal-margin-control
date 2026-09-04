@@ -1,0 +1,34 @@
+[
+ {
+  "cond": "cold",
+  "rep": 91,
+  "t_pre": 48.5,
+  "t_start": 48.5,
+  "status": "ok",
+  "run_id": "hetero_poisson_med_convex_r91"
+ },
+ {
+  "cond": "hot",
+  "rep": 92,
+  "t_pre": 55.65,
+  "t_start": 55.65,
+  "status": "ok",
+  "run_id": "hetero_poisson_med_convex_r92"
+ },
+ {
+  "cond": "cold",
+  "rep": 93,
+  "t_pre": 48.5,
+  "t_start": 48.5,
+  "status": "ok",
+  "run_id": "hetero_poisson_med_convex_r93"
+ },
+ {
+  "cond": "hot",
+  "rep": 94,
+  "t_pre": 54.55,
+  "t_start": 54.55,
+  "status": "ok",
+  "run_id": "hetero_poisson_med_convex_r94"
+ }
+]

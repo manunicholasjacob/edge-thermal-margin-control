@@ -79,3 +79,13 @@ sudo for cgroup process placement: `calib2.py` then `campaign2.py` (~7 hours).
 
 Manu Nicholas Jacob, 2026. MIT License. ORCID
 [0009-0007-6589-6572](https://orcid.org/0009-0007-6589-6572).
+
+## Preconditioning check (preheat/)
+
+Four additional convex runs at medium load and the primary cap, run after the
+main campaign at warmer daytime ambient (idle floor 48.5 C vs the calibrated
+45.8 C), alternating idle-cooled starts with 300 s three-tenant pre-soaks
+(`preheat2.py`). All four entered the binding state, the idle-cooled runs from
+first ticks of 52.4-52.9 C, the same first-tick temperature at which an
+overnight campaign run had stayed slack. Board history and ambient jointly set
+the entry state; no start-time signal cleanly predicts it.
