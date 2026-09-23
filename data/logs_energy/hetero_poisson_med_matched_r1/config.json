@@ -1,0 +1,21 @@
+{
+ "mix": "hetero",
+ "load": "med",
+ "rep": 1,
+ "mode": "matched",
+ "arrival": "poisson",
+ "t_cap": 54.0,
+ "run_id": "hetero_poisson_med_matched_r1",
+ "duration": 180,
+ "rates": {
+  "mnv2": 14.62,
+  "squeezenet": 17.24,
+  "resnet18": 3.88
+ },
+ "models": [
+  "mnv2",
+  "resnet18",
+  "squeezenet"
+ ],
+ "ts": "2026-09-16T10:56:32Z"
+}

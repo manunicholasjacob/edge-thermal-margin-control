@@ -1,0 +1,21 @@
+{
+ "mix": "hetero",
+ "load": "high",
+ "rep": 1,
+ "mode": "equal",
+ "arrival": "poisson",
+ "t_cap": 54.0,
+ "run_id": "hetero_poisson_high_equal_r1",
+ "duration": 180,
+ "rates": {
+  "mnv2": 20.467999999999996,
+  "squeezenet": 24.135999999999996,
+  "resnet18": 5.4319999999999995
+ },
+ "models": [
+  "mnv2",
+  "resnet18",
+  "squeezenet"
+ ],
+ "ts": "2026-09-16T10:10:47Z"
+}

@@ -1,0 +1,21 @@
+{
+ "mix": "hetero",
+ "load": "low",
+ "rep": 2,
+ "mode": "admission",
+ "arrival": "poisson",
+ "t_cap": 54.0,
+ "run_id": "hetero_poisson_low_admission_r2",
+ "duration": 180,
+ "rates": {
+  "mnv2": 8.771999999999998,
+  "squeezenet": 10.344,
+  "resnet18": 2.328
+ },
+ "models": [
+  "mnv2",
+  "resnet18",
+  "squeezenet"
+ ],
+ "ts": "2026-09-16T10:36:56Z"
+}

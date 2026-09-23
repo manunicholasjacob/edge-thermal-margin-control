@@ -54,23 +54,46 @@ scripts/
   calib2.py                  idle intercept, 150 s soak, per-model duty->rate curves
   campaign2.py               the 124-run matrix, resumable
   analyze2.py                per-run aggregation -> all_results2.json
-  fill_numbers.py            all_results2.json -> every number in the manuscript
+  energy2.py                 the energy campaign
+  fill_numbers.py            -> paper/numbers_v3.tex
+  fill_robustness.py         -> paper/numbers_robust.tex
+  fill_generality.py         -> paper/numbers_generality.tex
+  fill_energy.py             -> paper/numbers_energy.tex
   gen_fig_matched.py         the figure
 data/
   all_results2.json          aggregated results, all runs
   calib.json                 campaign calibration
-  logs_convex_controllers/   per-second controller traces of the convex runs
+  logs/                      per-run directories, 124 runs, per-second controller traces
+  logs_energy/               the energy campaign, 28 runs, power and latency traces
+preheat/                     the preheat control and its runs
+paper/
+  numbers_v3.tex, numbers_robust.tex, numbers_generality.tex, numbers_energy.tex
+                             generated, committed as generated
 legacy/                      March 2026 campaign (superseded; see correction notice)
 ```
+
+`data/logs/` was previously published flattened as `data/controller_traces/`, one CSV per run.
+The per-run directory layout is what the analysis scripts expect, so the flattened copy has been
+removed rather than kept alongside it. The bytes are unchanged.
 
 ## Reproduce
 
 Analysis needs only numpy:
 
 ```bash
-python scripts/fill_numbers.py   # regenerates every number in the manuscript
+python scripts/fill_numbers.py       # numbers_v3.tex
+python scripts/fill_robustness.py    # numbers_robust.tex
+python scripts/fill_generality.py    # numbers_generality.tex
+python scripts/fill_energy.py        # numbers_energy.tex
 python scripts/gen_fig_matched.py
 ```
+
+The manuscript includes all four macro files, and they are committed here as generated. Running
+the four commands above and then `git diff` is therefore the check: it comes back empty.
+
+An earlier version of this README said `fill_numbers.py` alone regenerated every number in the
+manuscript. It does not; it writes one of the four macro files, and the other three scripts and
+the data they read were not part of the release until now.
 
 Re-running the campaign needs a Raspberry Pi 5 with onnxruntime, cvxpy, psutil, cgroup v2, and
 sudo for cgroup process placement: `calib2.py` then `campaign2.py` (~7 hours).

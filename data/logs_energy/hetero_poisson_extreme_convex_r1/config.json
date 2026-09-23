@@ -1,0 +1,21 @@
+{
+ "mix": "hetero",
+ "load": "extreme",
+ "rep": 1,
+ "mode": "convex",
+ "arrival": "poisson",
+ "t_cap": 54.0,
+ "run_id": "hetero_poisson_extreme_convex_r1",
+ "duration": 180,
+ "rates": {
+  "mnv2": 29.24,
+  "squeezenet": 34.48,
+  "resnet18": 7.76
+ },
+ "models": [
+  "mnv2",
+  "resnet18",
+  "squeezenet"
+ ],
+ "ts": "2026-09-16T10:00:57Z"
+}
