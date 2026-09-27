@@ -3,8 +3,14 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21844861.svg)](https://doi.org/10.5281/zenodo.21844861)
 
 Reproducible artifact for **"When Thermal-Margin Control Helps and When It Hurts: A
-Matched-Baseline Study of Convex Allocation for Multi-Tenant Edge Inference"** (revised
-manuscript for IEEE Embedded Systems Letters, September 2026).
+Matched-Baseline Study of Convex Allocation for Multi-Tenant Edge Inference"**.
+
+**Status, 27 September 2026:** under review at **IEEE Transactions on Sustainable
+Computing**, `TSUSC-2026-09-0317`, submitted 26 September 2026. An earlier, shorter version
+was desk-rejected by IEEE Embedded Systems Letters on 3 September 2026 as too large for the
+Letter format, and the IEEE Internet of Things Journal rejected the original with a bar on
+revisions. Previous versions of this README described the work as a revised ESL manuscript;
+that is no longer true.
 
 ## Correction notice (September 2026)
 
