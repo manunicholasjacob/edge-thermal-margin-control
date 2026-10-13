@@ -1,5 +1,6 @@
 {
   "title": "When Thermal-Margin Control Helps and When It Hurts: Convex Allocation for Multi-Tenant Edge Inference on Raspberry Pi 5",
+  "description": "Reproducible artifact for a matched-baseline study of convex thermal-margin allocation for multi-tenant edge inference on a Raspberry Pi 5 (Arm Cortex-A76), the subject of a manuscript under review. Includes the controller, the matched baselines, the raw campaign data and the scripts that regenerate the manuscript's tables and figures. See the README for the current status of each result.",
   "upload_type": "software",
   "license": "mit",
   "access_right": "open",
