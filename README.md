@@ -5,8 +5,9 @@
 Reproducible artifact for **"When Thermal-Margin Control Helps and When It Hurts: A
 Matched-Baseline Study of Convex Allocation for Multi-Tenant Edge Inference"**.
 
-**Status, 13 October 2026:** Desk-rejected by IEEE TSUSC on scope (10 Oct 2026); not
-currently under review. An earlier, shorter version
+**Status, 16 October 2026:** Under review at IEEE Transactions on Mobile Computing (submitted
+16 Oct 2026; the manuscript title now ends "...for Multi-Tenant Inference on a Mobile-Class SoC").
+It was earlier desk-rejected by IEEE TSUSC on scope (10 Oct 2026, no reviews). An earlier, shorter version
 was desk-rejected by IEEE Embedded Systems Letters on 3 September 2026 as too large for the
 Letter format, and the IEEE Internet of Things Journal rejected the original with a bar on
 revisions. Previous versions of this README described the work as a revised ESL manuscript;
